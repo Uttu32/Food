@@ -1,0 +1,33 @@
+.Main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fae5d3;
+    box-shadow: rgba(0, 0, 0, 0.176) 0px 16px 48px 0px
+}
+
+.logo{
+    position: relative;
+    left: 5%;
+}
+
+img{
+    /* width: 6rem; */
+    height: 2.9rem;
+}
+
+.tags{
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    right: 5%;
+    /* border: 1px solid red; */
+}
+
+.tags>a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
